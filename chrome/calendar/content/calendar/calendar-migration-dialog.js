@@ -197,9 +197,9 @@ var gDataMigrator = {
         migLOG("DMs: " + DMs.length);
 
         var url = "chrome://calendar/content/calendar-migration-dialog.xul";
-//@line 208 "/builds/slave/tb-rel-c-beta-lx_bld-000000000/build/calendar/base/content/dialogs/calendar-migration-dialog.js"
+//@line 208 "/builds/slave/tb-rel-c-esr24-lx_bld-00000000/build/calendar/base/content/dialogs/calendar-migration-dialog.js"
         openDialog(url, "migration", "modal,centerscreen,chrome,resizable=no,width=500,height=400", DMs);
-//@line 210 "/builds/slave/tb-rel-c-beta-lx_bld-000000000/build/calendar/base/content/dialogs/calendar-migration-dialog.js"
+//@line 210 "/builds/slave/tb-rel-c-esr24-lx_bld-00000000/build/calendar/base/content/dialogs/calendar-migration-dialog.js"
     },
 
     /**

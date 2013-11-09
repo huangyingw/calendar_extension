@@ -11,9 +11,9 @@ function openAboutDialog()
   var url = (Services.appinfo.ID == SUNBIRD_ID) ?
     "chrome://sunbird/content/aboutDialog.xul" :
     "chrome://messenger/content/aboutDialog.xul" ;
-//@line 19 "/builds/slave/tb-rel-c-beta-lx_bld-000000000/build/calendar/base/src/calApplicationUtils.js"
+//@line 19 "/builds/slave/tb-rel-c-esr24-lx_bld-00000000/build/calendar/base/src/calApplicationUtils.js"
   var features = "chrome,centerscreen,dependent,dialog=no";
-//@line 21 "/builds/slave/tb-rel-c-beta-lx_bld-000000000/build/calendar/base/src/calApplicationUtils.js"
+//@line 21 "/builds/slave/tb-rel-c-esr24-lx_bld-00000000/build/calendar/base/src/calApplicationUtils.js"
   window.openDialog(url, "About", features);
 }
 

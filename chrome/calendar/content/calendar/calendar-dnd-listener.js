@@ -239,7 +239,7 @@ calDNDBaseObserver.prototype = {
         var destCal = getSelectedCalendar();
         switch (bestFlavor.value) {
             case "text/calendar":
-//@line 246 "/builds/slave/tb-rel-c-beta-lx_bld-000000000/build/calendar/base/content/calendar-dnd-listener.js"
+//@line 246 "/builds/slave/tb-rel-c-esr24-lx_bld-00000000/build/calendar/base/content/calendar-dnd-listener.js"
                 var parser = Components.classes["@mozilla.org/calendar/ics-parser;1"]
                              .createInstance(Components.interfaces.calIIcsParser);
                 parser.parseString(data);
